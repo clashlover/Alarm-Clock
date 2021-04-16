@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Abril Fatface", cursive;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5rem;
+}
+p {
+  font-size: 2rem;
+}
+
+input {
+  width: 20%;
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+.message {
+  visibility: hidden;
+}
+.active {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: red;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: "Abril Fatface", cursive;
+}
+
+.inactive {
+  display: inline-block;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  font-family: "Abril Fatface", cursive;
+  background-color: #ccc;
+  cursor: not-allowed;
+}

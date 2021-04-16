@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="timer"></h1>
+    <p>✷ Set Alarm time ✷</p>
+    <!-- <input type="number" class="hour" min="00" max="23" placeholder="Enter Hours" required/>
+    <input type="number" class="min" min="00" max="59" placeholder="Enter minutes" required/>
+    <input type="number" class="sec" min="00" max="59" placeholder="Enter seconds" required/> -->
+    <label for="Hours">Hours</label>
+    <select name="hour" id="hour"></select>
+    <label for="Minutes">Minutes</label>
+    <select name="minute" id="minute"></select>
+    <label for="Seconds">Seconds</label>
+    <select name="second" id="second"></select>
+    <p class="message">Your alarm time is set at:</p>
+    <p id="user_input"></p>
+    <div>
+      <button class = "active" id="start"><span>Start Alarm</span></button>
+      <button class = "button inactive" id="stop"><span>Stop Alarm</span></button>
+      <button class = "active" id="clear"><span>Clear</span></button>
+    </div>
+  </div>
+
+  <script src="alarmclock.js"></script>
+</body>
+
+</html>
